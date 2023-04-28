@@ -13,11 +13,27 @@
 <header class="header">
     <div class="container">
         <nav class="header__nav">
-            <h2>GIPHY API</h2>
-            <input type="text">
+            <h2><img class="header__logo" src="https://developers.giphy.com/branch/master/static/header-logo-0fec0225d189bc0eae27dac3e3770582.gif" alt="GIPHY API"></h2>
+            <form class="header__form">
+                <input id="search" placeholder="Enter the name of the GIF" class="header__search" type="text">
+                <button id="btn" class="header__btn" type="button">
+                    <img class="header__search-gif" src="./assets/icon.gif"
+                         alt="Search icon">
+                </button>
+            </form>
         </nav>
     </div>
 </header>
+
+<main>
+    <section class="gif">
+        <div class="container">
+            <div id="list" class="gif__list">
+
+            </div>
+        </div>
+    </section>
+</main>
 
 <script src="./main.js"></script>
 </body>

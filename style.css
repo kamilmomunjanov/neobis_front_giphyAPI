@@ -5,7 +5,8 @@
 }
 
 .header{
-    background: red;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .container{
@@ -19,4 +20,52 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0 25px;
+}
+
+.header__logo{
+    max-width: 300px;
+    width: 100%;
+    cursor: pointer;
+}
+.header__form{
+    display: flex;
+}
+
+.header__search{
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    border-radius: 20px 0 0 20px;
+}
+
+.header__btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    background: white;
+}
+
+.header__search-gif{
+    max-width: 25px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.gif{
+    padding-top: 20px;
+}
+.gif__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#list img {
+    width: 31%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
 }
