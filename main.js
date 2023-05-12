@@ -13,7 +13,8 @@ let urlComplete = "";
 
 const btn = document.getElementById('btn')
 
-btn.addEventListener("click", () =>{
+btn.addEventListener("click", (e) =>{
+    e.preventDefault()
 
     document.getElementById('list').innerHTML = ""
     q = document.getElementById('search').value
